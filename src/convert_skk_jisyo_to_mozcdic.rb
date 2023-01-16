@@ -61,7 +61,8 @@ lines.length.times do |i|
 		# 2個目以降の表記のコストを上げる
 		cost = 8000 + (10 * c)
 
-		l2[p] = yomi + "	" + id_mozc + "	" + id_mozc + "	" + cost.to_s + "	" + hyouki[c]
+		l2[p] = [yomi, id_mozc, id_mozc, cost.to_s, hyouki[c]]
+		l2[p] = l2[p].join("	")
 		p = p + 1
 	end
 end
