@@ -1,3 +1,12 @@
-mozcdic-ut-edict2.txt: [Creative Commons Attribution-ShareAlike Licence (V4.0)](https://www.edrdg.org/edrdg/licence.html)
+mozcdic-ut-skk-jisyo.txt: GNU General Public License v2.0 or later
 
 Source code: Apache License, Version 2.0
+
+```
+head -n 30 SKK-JISYO.L
+
+;; This dictionary is free software; you can redistribute it and/or
+;; modify it under the terms of the GNU General Public License as
+;; published by the Free Software Foundation; either version 2, or
+;; (at your option) any later version.
+```
