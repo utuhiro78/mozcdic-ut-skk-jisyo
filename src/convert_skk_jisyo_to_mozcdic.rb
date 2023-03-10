@@ -3,8 +3,7 @@
 
 require 'nkf'
 
-`wget -N https://skk-dev.github.io/dict/SKK-JISYO.L.gz`
-`gzip -dkf SKK-JISYO.L.gz`
+`wget -N https://github.com/skk-dev/dict/raw/master/SKK-JISYO.L`
 
 filename = "SKK-JISYO.L"
 dicname = "mozcdic-ut-skk-jisyo.txt"
