@@ -1,8 +1,3 @@
----
-title: Mozc UT SKK-JISYO Dictionary
-date: 2023-01-15
----
-
 ## Overview
 
 Mozc UT SKK-JISYO Dictionary is a dictionary converted from [SKK-JISYO](http://openlab.ring.gr.jp/skk/wiki/wiki.cgi?page=SKK%BC%AD%BD%F1) for Mozc.
