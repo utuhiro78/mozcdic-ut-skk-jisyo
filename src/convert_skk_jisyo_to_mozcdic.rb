@@ -7,7 +7,7 @@ require 'nkf'
 
 filename = "SKK-JISYO.L"
 dicname = "mozcdic-ut-skk-jisyo.txt"
-id_mozc = "1847"
+id_mozc = "1843"
 
 file = File.new(filename, "r")
 	lines = file.read.encode("UTF-8", "EUC-JP")
