@@ -2,12 +2,17 @@
 # coding: utf-8
 
 require 'nkf'
+require 'open-uri'
 
-`wget -N https://github.com/skk-dev/dict/raw/master/SKK-JISYO.L`
+`wget -N https://skk-dev.github.io/dict/SKK-JISYO.L.gz`
+`gzip -dk SKK-JISYO.L.gz`
 
 filename = "SKK-JISYO.L"
 dicname = "mozcdic-ut-skk-jisyo.txt"
-id_mozc = "1843"
+
+url = "https://raw.githubusercontent.com/google/mozc/master/src/data/dictionary_oss/id.def"
+id_mozc = URI.open(url).read.split(" 名詞,一般,")[0]
+id_mozc = id_mozc.split("\n")[-1]
 
 file = File.new(filename, "r")
 	lines = file.read.encode("UTF-8", "EUC-JP")
