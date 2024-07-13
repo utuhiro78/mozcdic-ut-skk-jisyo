@@ -49,9 +49,9 @@ for i in range(len(lines)):
 		len(hyouki[c].encode("utf-8")) == len(hyouki[c]):
 			continue
 
-		# 2個目以降の表記が1つ前の表記と同じ場合はスキップ
+		# 1つ前の表記と同じ場合はスキップ
 		# ＩＣカード/ICカード/
-		if c > 0 and hyouki[c] == hyouki[c - 1]:
+		if hyouki[c] == hyouki[c - 1]:
 			continue
 
 		# 2個目以降の表記のコストを上げる
