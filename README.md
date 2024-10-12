@@ -8,8 +8,6 @@ Thanks to the SKK-JISYO team.
 
 mozcdic-ut-skk-jisyo.txt: GNU General Public License v2.0 or later
 
-Source code: Apache License, Version 2.0
-
 ```
 head -n 30 SKK-JISYO.L
 
@@ -18,6 +16,8 @@ head -n 30 SKK-JISYO.L
 ;; published by the Free Software Foundation; either version 2, or
 ;; (at your option) any later version.
 ```
+
+Source code: Apache License, Version 2.0
 
 ## Usage
 
