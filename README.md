@@ -1,6 +1,6 @@
 ## Overview
 
-Mozc UT SKK-JISYO Dictionary is a dictionary converted from [SKK-JISYO](http://openlab.ring.gr.jp/skk/wiki/wiki.cgi?page=SKK%BC%AD%BD%F1) for Mozc.
+A dictionary converted from [SKK-JISYO](http://openlab.ring.gr.jp/skk/wiki/wiki.cgi?page=SKK%BC%AD%BD%F1) for Mozc.
 
 Thanks to the SKK-JISYO team.
 
@@ -21,7 +21,7 @@ head -n 30 SKK-JISYO.L
 
 ## Usage
 
-Add mozcdic-ut-*.txt to dictionary00.txt and build Mozc as usual.
+Add the dictionary to dictionary00.txt and build Mozc as usual.
 
 ```
 tar xf mozcdic-ut-*.txt.tar.bz2
