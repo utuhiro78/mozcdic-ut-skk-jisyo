@@ -21,4 +21,8 @@ head -n 30 SKK-JISYO.L
 
 See [merge-ut-dictionaries](https://github.com/utuhiro78/merge-ut-dictionaries).
 
+## Source
+
+https://github.com/utuhiro78/merge-ut-dictionaries/tree/main/src
+
 [HOME](http://linuxplayers.g1.xrea.com/mozc-ut.html)
