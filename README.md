@@ -1,6 +1,6 @@
 ## Overview
 
-A dictionary converted from [SKK-JISYO](http://openlab.ring.gr.jp/skk/wiki/wiki.cgi?page=SKK%BC%AD%BD%F1) for Mozc.
+A dictionary converted from [SKK-JISYO](https://github.com/skk-dev/dict) for Mozc.
 
 Thanks to the SKK-JISYO team.
 
